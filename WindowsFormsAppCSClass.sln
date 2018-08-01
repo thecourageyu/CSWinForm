@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppCSClass", "WindowsFormsAppCSClass.csproj", "{52B2591B-FC48-4689-AA00-F29185B797B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMIApp", "..\BMIApp\BMIApp.csproj", "{BF23102D-2FF3-4969-8E8A-237C5E8A054C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B2591B-FC48-4689-AA00-F29185B797B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B2591B-FC48-4689-AA00-F29185B797B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B2591B-FC48-4689-AA00-F29185B797B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B2591B-FC48-4689-AA00-F29185B797B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF23102D-2FF3-4969-8E8A-237C5E8A054C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF23102D-2FF3-4969-8E8A-237C5E8A054C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF23102D-2FF3-4969-8E8A-237C5E8A054C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF23102D-2FF3-4969-8E8A-237C5E8A054C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6876EFD-BC8F-45AA-AF3C-6AD4F11D9A25}
+	EndGlobalSection
+EndGlobal
