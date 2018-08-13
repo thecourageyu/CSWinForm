@@ -1,0 +1,6 @@
+E:\GitHub\CSWinForm\CharactersLib\bin\Debug\CharactersLib.dll
+E:\GitHub\CSWinForm\CharactersLib\bin\Debug\CharactersLib.pdb
+E:\GitHub\CSWinForm\CharactersLib\obj\Debug\CharactersLib.csprojAssemblyReference.cache
+E:\GitHub\CSWinForm\CharactersLib\obj\Debug\CharactersLib.csproj.CoreCompileInputs.cache
+E:\GitHub\CSWinForm\CharactersLib\obj\Debug\CharactersLib.dll
+E:\GitHub\CSWinForm\CharactersLib\obj\Debug\CharactersLib.pdb

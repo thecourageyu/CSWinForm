@@ -1,0 +1,13 @@
+E:\GitHub\CSWinForm\BattleWinFormApp\bin\Debug\BattleWinFormApp.exe.config
+E:\GitHub\CSWinForm\BattleWinFormApp\bin\Debug\BattleWinFormApp.exe
+E:\GitHub\CSWinForm\BattleWinFormApp\bin\Debug\BattleWinFormApp.pdb
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.csprojAssemblyReference.cache
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.Battle.resources
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.Properties.Resources.resources
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.csproj.GenerateResource.cache
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.csproj.CoreCompileInputs.cache
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.exe
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.pdb
+E:\GitHub\CSWinForm\BattleWinFormApp\bin\Debug\CharactersLib.dll
+E:\GitHub\CSWinForm\BattleWinFormApp\bin\Debug\CharactersLib.pdb
+E:\GitHub\CSWinForm\BattleWinFormApp\obj\Debug\BattleWinFormApp.csproj.CopyComplete
