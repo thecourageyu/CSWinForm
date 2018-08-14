@@ -1,0 +1,16 @@
+E:\GitHub\RabbitWinFormApp\bin\Debug\RabbitWinFormApp.exe.config
+E:\GitHub\RabbitWinFormApp\bin\Debug\RabbitWinFormApp.exe
+E:\GitHub\RabbitWinFormApp\bin\Debug\RabbitWinFormApp.pdb
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.csprojAssemblyReference.cache
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.Properties.Resources.resources
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.csproj.GenerateResource.cache
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.csproj.CoreCompileInputs.cache
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.exe
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.pdb
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.RabbitHome.resources
+E:\GitHub\RabbitWinFormApp\bin\Debug\CharactersLib.dll
+E:\GitHub\RabbitWinFormApp\bin\Debug\CharactersLib.pdb
+E:\GitHub\RabbitWinFormApp\obj\Debug\RabbitWinFormApp.csproj.CopyComplete
+E:\GitHub\RabbitWinFormApp\bin\Debug\BattleWinFormApp.exe
+E:\GitHub\RabbitWinFormApp\bin\Debug\BattleWinFormApp.pdb
+E:\GitHub\RabbitWinFormApp\bin\Debug\BattleWinFormApp.exe.config
