@@ -32,15 +32,15 @@ namespace CharactersLib
             {
                 if (value > 10)
                 {
-                    this.Level = 10;
+                    this.level = 10;
                 }
                 else if (value <= 1)
                 {
-                    this.Level = 1;
+                    this.level = 1;
                 }
                 else
                 {
-                    this.Level = value;
+                    this.level = value;
                 }
             }
         }
@@ -99,8 +99,7 @@ namespace CharactersLib
                 Characters.random = new Random();
             this.NationalId = nationalId;
             this.Name = name;
-            this.Level = 1;
-              
+            this.Level = random.Next(1, 11);
             this.MaxHp = random.Next(10, 101) + this.Level * 10;
             this.Hp = MaxHp;
             this.PowerUpCandy = 2;

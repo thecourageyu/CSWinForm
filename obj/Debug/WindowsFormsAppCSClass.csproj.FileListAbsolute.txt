@@ -1,0 +1,10 @@
+E:\GitHub\CSWinForm\bin\Debug\WindowsFormsAppCSClass.exe.config
+E:\GitHub\CSWinForm\bin\Debug\WindowsFormsAppCSClass.exe
+E:\GitHub\CSWinForm\bin\Debug\WindowsFormsAppCSClass.pdb
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.csprojAssemblyReference.cache
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.MainWindow.resources
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.Properties.Resources.resources
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.csproj.GenerateResource.cache
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.csproj.CoreCompileInputs.cache
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.exe
+E:\GitHub\CSWinForm\obj\Debug\WindowsFormsAppCSClass.pdb

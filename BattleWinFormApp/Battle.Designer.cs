@@ -29,48 +29,138 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Battle));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAttack = new System.Windows.Forms.Button();
             this.enemyPicBox = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnSpecialAttack = new System.Windows.Forms.Button();
+            this.btnSurrendar = new System.Windows.Forms.Button();
+            this.EnemyMaxHP = new System.Windows.Forms.Label();
+            this.EnemyHP = new System.Windows.Forms.Label();
+            this.EnemyLevel = new System.Windows.Forms.Label();
+            this.EnemyName = new System.Windows.Forms.Label();
+            this.RabbitPicBox = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnAttack
             // 
-            this.button1.Location = new System.Drawing.Point(63, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAttack.Location = new System.Drawing.Point(354, 280);
+            this.btnAttack.Name = "btnAttack";
+            this.btnAttack.Size = new System.Drawing.Size(93, 44);
+            this.btnAttack.TabIndex = 0;
+            this.btnAttack.Text = "攻擊";
+            this.btnAttack.UseVisualStyleBackColor = true;
             // 
             // enemyPicBox
             // 
             this.enemyPicBox.Image = ((System.Drawing.Image)(resources.GetObject("enemyPicBox.Image")));
-            this.enemyPicBox.Location = new System.Drawing.Point(338, 36);
+            this.enemyPicBox.Location = new System.Drawing.Point(162, 12);
             this.enemyPicBox.Name = "enemyPicBox";
             this.enemyPicBox.Size = new System.Drawing.Size(161, 147);
+            this.enemyPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enemyPicBox.TabIndex = 3;
             this.enemyPicBox.TabStop = false;
             // 
-            // button2
+            // btnSpecialAttack
             // 
-            this.button2.Location = new System.Drawing.Point(63, 327);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 44);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSpecialAttack.Location = new System.Drawing.Point(354, 330);
+            this.btnSpecialAttack.Name = "btnSpecialAttack";
+            this.btnSpecialAttack.Size = new System.Drawing.Size(93, 44);
+            this.btnSpecialAttack.TabIndex = 4;
+            this.btnSpecialAttack.Text = "特殊攻擊";
+            this.btnSpecialAttack.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSurrendar
             // 
-            this.button3.Location = new System.Drawing.Point(63, 377);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 44);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSurrendar.Location = new System.Drawing.Point(354, 380);
+            this.btnSurrendar.Name = "btnSurrendar";
+            this.btnSurrendar.Size = new System.Drawing.Size(93, 44);
+            this.btnSurrendar.TabIndex = 5;
+            this.btnSurrendar.Text = "投降";
+            this.btnSurrendar.UseVisualStyleBackColor = true;
+            // 
+            // EnemyMaxHP
+            // 
+            this.EnemyMaxHP.Location = new System.Drawing.Point(88, 47);
+            this.EnemyMaxHP.Name = "EnemyMaxHP";
+            this.EnemyMaxHP.Size = new System.Drawing.Size(68, 23);
+            this.EnemyMaxHP.TabIndex = 6;
+            this.EnemyMaxHP.Text = "MaxHP";
+            this.EnemyMaxHP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // EnemyHP
+            // 
+            this.EnemyHP.Location = new System.Drawing.Point(14, 47);
+            this.EnemyHP.Name = "EnemyHP";
+            this.EnemyHP.Size = new System.Drawing.Size(68, 23);
+            this.EnemyHP.TabIndex = 7;
+            this.EnemyHP.Text = "HP";
+            this.EnemyHP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // EnemyLevel
+            // 
+            this.EnemyLevel.Location = new System.Drawing.Point(14, 12);
+            this.EnemyLevel.Name = "EnemyLevel";
+            this.EnemyLevel.Size = new System.Drawing.Size(45, 23);
+            this.EnemyLevel.TabIndex = 8;
+            this.EnemyLevel.Text = "Level";
+            this.EnemyLevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // EnemyName
+            // 
+            this.EnemyName.Location = new System.Drawing.Point(65, 12);
+            this.EnemyName.Name = "EnemyName";
+            this.EnemyName.Size = new System.Drawing.Size(91, 23);
+            this.EnemyName.TabIndex = 9;
+            this.EnemyName.Text = "Name";
+            this.EnemyName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // RabbitPicBox
+            // 
+            this.RabbitPicBox.Image = ((System.Drawing.Image)(resources.GetObject("RabbitPicBox.Image")));
+            this.RabbitPicBox.Location = new System.Drawing.Point(453, 245);
+            this.RabbitPicBox.Name = "RabbitPicBox";
+            this.RabbitPicBox.Size = new System.Drawing.Size(161, 147);
+            this.RabbitPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.RabbitPicBox.TabIndex = 10;
+            this.RabbitPicBox.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(305, 245);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 23);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "HP";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(379, 245);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 23);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "MaxHP";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(339, 12);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(275, 147);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = "";
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(593, 12);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(21, 147);
+            this.vScrollBar1.TabIndex = 14;
             // 
             // Battle
             // 
@@ -79,23 +169,42 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(626, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.vScrollBar1);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.RabbitPicBox);
+            this.Controls.Add(this.EnemyName);
+            this.Controls.Add(this.EnemyLevel);
+            this.Controls.Add(this.EnemyHP);
+            this.Controls.Add(this.EnemyMaxHP);
+            this.Controls.Add(this.btnSurrendar);
+            this.Controls.Add(this.btnSpecialAttack);
             this.Controls.Add(this.enemyPicBox);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAttack);
             this.Name = "Battle";
             this.Text = "Batltle";
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAttack;
         private System.Windows.Forms.PictureBox enemyPicBox;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnSpecialAttack;
+        private System.Windows.Forms.Button btnSurrendar;
+        private System.Windows.Forms.Label EnemyMaxHP;
+        private System.Windows.Forms.Label EnemyHP;
+        private System.Windows.Forms.Label EnemyLevel;
+        private System.Windows.Forms.Label EnemyName;
+        private System.Windows.Forms.PictureBox RabbitPicBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
 
