@@ -35,5 +35,20 @@ namespace BattleWinFormApp
             EnemyHP.Text = Enemy.Hp.ToString();
             EnemyMaxHP.Text = Enemy.MaxHp.ToString();
         }
+
+        private void btnSurrendar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("GG");
+            this.Close();
+        }
+
+        //private
+
+       
+
+        private void Battle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

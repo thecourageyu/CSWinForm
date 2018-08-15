@@ -40,7 +40,7 @@
             this.RabbitPicBox = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).BeginInit();
@@ -48,6 +48,7 @@
             // 
             // btnAttack
             // 
+            this.btnAttack.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnAttack.Location = new System.Drawing.Point(354, 280);
             this.btnAttack.Name = "btnAttack";
             this.btnAttack.Size = new System.Drawing.Size(93, 44);
@@ -82,6 +83,7 @@
             this.btnSurrendar.TabIndex = 5;
             this.btnSurrendar.Text = "投降";
             this.btnSurrendar.UseVisualStyleBackColor = true;
+            this.btnSurrendar.Click += new System.EventHandler(this.btnSurrendar_Click);
             // 
             // EnemyMaxHP
             // 
@@ -147,13 +149,13 @@
             this.label4.Text = "MaxHP";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // richTextBox1
+            // richTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(339, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(275, 147);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "";
+            this.richTextBox.Location = new System.Drawing.Point(339, 12);
+            this.richTextBox.Name = "richTextBox";
+            this.richTextBox.Size = new System.Drawing.Size(275, 147);
+            this.richTextBox.TabIndex = 13;
+            this.richTextBox.Text = "";
             // 
             // vScrollBar1
             // 
@@ -170,7 +172,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(626, 450);
             this.Controls.Add(this.vScrollBar1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.RabbitPicBox);
@@ -184,6 +186,7 @@
             this.Controls.Add(this.btnAttack);
             this.Name = "Battle";
             this.Text = "Batltle";
+            this.Load += new System.EventHandler(this.Battle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).EndInit();
             this.ResumeLayout(false);
@@ -203,7 +206,7 @@
         private System.Windows.Forms.PictureBox RabbitPicBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox;
         private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
