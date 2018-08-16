@@ -79,11 +79,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSWinForm\BattleWinFormApp\BattleWinFormApp.csproj">
+    <ProjectReference Include="..\BattleWinFormApp\BattleWinFormApp.csproj">
       <Project>{21b68553-d149-453e-97f4-9a9d7d07f6f6}</Project>
       <Name>BattleWinFormApp</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CSWinForm\CharactersLib\CharactersLib.csproj">
+    <ProjectReference Include="..\CharactersLib\CharactersLib.csproj">
       <Project>{dece041b-b5fd-4334-ac52-c0626b13b254}</Project>
       <Name>CharactersLib</Name>
     </ProjectReference>
