@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppCSClass", "WindowsFormsAppCSClass.csproj", "{52B2591B-FC48-4689-AA00-F29185B797B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitWinFormApp", "..\RabbitWinFormApp\RabbitWinFormApp.csproj", "{5ADE20E5-9416-473E-B943-01EA5121B16C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharactersLib", "CharactersLib\CharactersLib.csproj", "{DECE041B-B5FD-4334-AC52-C0626B13B254}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleWinFormApp", "BattleWinFormApp\BattleWinFormApp.csproj", "{21B68553-D149-453E-97F4-9A9D7D07F6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitWinFormApp", "RabbitWinFormApp\RabbitWinFormApp.csproj", "{5ADE20E5-9416-473E-B943-01EA5121B16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{52B2591B-FC48-4689-AA00-F29185B797B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B2591B-FC48-4689-AA00-F29185B797B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B2591B-FC48-4689-AA00-F29185B797B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DECE041B-B5FD-4334-AC52-C0626B13B254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DECE041B-B5FD-4334-AC52-C0626B13B254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECE041B-B5FD-4334-AC52-C0626B13B254}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{21B68553-D149-453E-97F4-9A9D7D07F6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B68553-D149-453E-97F4-9A9D7D07F6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B68553-D149-453E-97F4-9A9D7D07F6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADE20E5-9416-473E-B943-01EA5121B16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

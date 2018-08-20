@@ -17,7 +17,7 @@ namespace RabbitWinFormApp
     {
        
         DateTime TimeTheFirstCarrot = DateTime.Now;
-        private Battle BattleWindow;
+        //private Battle BattleWindow;
         static int numCarrots = 10;
         static int needExp = 10;
         int remainingCarrot = 12;
@@ -47,9 +47,9 @@ namespace RabbitWinFormApp
         private void AttrShow()
         {
             RabbitName.Text = rabbit.Name;
-            RabbitLevel.Text = rabbit.Level.ToString();
-            RabbitHP.Text = rabbit.Hp.ToString();
-            RabbitMaxHP.Text = rabbit.MaxHp.ToString();
+            RabbitLevel.Text = "Lv " + rabbit.Level.ToString("d2");
+            RabbitHP.Text = "HP   " + rabbit.Hp.ToString("d3")+ " / " + rabbit.MaxHp.ToString();
+            //RabbitMaxHP.Text = rabbit.MaxHp.ToString();
             labCarrot.Text = numCarrots.ToString();
         }
 
@@ -88,7 +88,7 @@ namespace RabbitWinFormApp
 
             //tmpString = PicDir + "/" + tmpString + "-1-01.png";
 
-            TestBox.Text = PicDir + "\\" + tmpString + "-1-01.png";
+            //TestBox.Text = PicDir + "\\" + tmpString + "-1-01.png";
 
             /*
             this.BackgroundImage = new Bitmap(PicDir + "/" + tmpString + "-1-01.png");
@@ -181,7 +181,7 @@ namespace RabbitWinFormApp
 
             while (BattleWindow.ExeStat != 0)
             {
-                await Task.Delay(3000);
+                await Task.Delay(1000 * 20);
                 TestBox.Text += BattleWindow.ExeStat.ToString() + "\r\n";
                 TestBox.Text += BattleWindow.RabbitCarrots.ToString() + "\r\n";
                 BtnAlive();
@@ -221,6 +221,11 @@ namespace RabbitWinFormApp
                 numCarrots = 0;
             }
             AttrShow();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

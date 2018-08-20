@@ -33,136 +33,147 @@
             this.enemyPicBox = new System.Windows.Forms.PictureBox();
             this.btnSpecialAttack = new System.Windows.Forms.Button();
             this.btnSurrendar = new System.Windows.Forms.Button();
-            this.EnemyMaxHP = new System.Windows.Forms.Label();
             this.EnemyHP = new System.Windows.Forms.Label();
             this.EnemyLevel = new System.Windows.Forms.Label();
             this.EnemyName = new System.Windows.Forms.Label();
             this.RabbitPicBox = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.RabbitHpLab = new System.Windows.Forms.Label();
             this.richTextBox = new System.Windows.Forms.RichTextBox();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.CarrotsLab = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAttack
             // 
             this.btnAttack.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnAttack.Location = new System.Drawing.Point(354, 280);
+            this.btnAttack.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnAttack.Location = new System.Drawing.Point(368, 310);
             this.btnAttack.Name = "btnAttack";
-            this.btnAttack.Size = new System.Drawing.Size(93, 44);
+            this.btnAttack.Size = new System.Drawing.Size(79, 25);
             this.btnAttack.TabIndex = 0;
             this.btnAttack.Text = "攻擊";
             this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnAttack.Click += new System.EventHandler(this.btnAttack_Click);
             // 
             // enemyPicBox
             // 
+            this.enemyPicBox.BackColor = System.Drawing.Color.White;
+            this.enemyPicBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.enemyPicBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.enemyPicBox.Image = ((System.Drawing.Image)(resources.GetObject("enemyPicBox.Image")));
             this.enemyPicBox.Location = new System.Drawing.Point(162, 12);
             this.enemyPicBox.Name = "enemyPicBox";
-            this.enemyPicBox.Size = new System.Drawing.Size(161, 147);
+            this.enemyPicBox.Size = new System.Drawing.Size(160, 147);
             this.enemyPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enemyPicBox.TabIndex = 3;
             this.enemyPicBox.TabStop = false;
             // 
             // btnSpecialAttack
             // 
-            this.btnSpecialAttack.Location = new System.Drawing.Point(354, 330);
+            this.btnSpecialAttack.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSpecialAttack.Location = new System.Drawing.Point(368, 341);
             this.btnSpecialAttack.Name = "btnSpecialAttack";
-            this.btnSpecialAttack.Size = new System.Drawing.Size(93, 44);
+            this.btnSpecialAttack.Size = new System.Drawing.Size(79, 25);
             this.btnSpecialAttack.TabIndex = 4;
             this.btnSpecialAttack.Text = "特殊攻擊";
             this.btnSpecialAttack.UseVisualStyleBackColor = true;
+            this.btnSpecialAttack.Click += new System.EventHandler(this.btnSpecialAttack_Click);
             // 
             // btnSurrendar
             // 
-            this.btnSurrendar.Location = new System.Drawing.Point(354, 380);
+            this.btnSurrendar.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSurrendar.Location = new System.Drawing.Point(368, 372);
             this.btnSurrendar.Name = "btnSurrendar";
-            this.btnSurrendar.Size = new System.Drawing.Size(93, 44);
+            this.btnSurrendar.Size = new System.Drawing.Size(79, 25);
             this.btnSurrendar.TabIndex = 5;
             this.btnSurrendar.Text = "投降";
             this.btnSurrendar.UseVisualStyleBackColor = true;
             this.btnSurrendar.Click += new System.EventHandler(this.btnSurrendar_Click);
             // 
-            // EnemyMaxHP
-            // 
-            this.EnemyMaxHP.Location = new System.Drawing.Point(88, 47);
-            this.EnemyMaxHP.Name = "EnemyMaxHP";
-            this.EnemyMaxHP.Size = new System.Drawing.Size(68, 23);
-            this.EnemyMaxHP.TabIndex = 6;
-            this.EnemyMaxHP.Text = "MaxHP";
-            this.EnemyMaxHP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // EnemyHP
             // 
-            this.EnemyHP.Location = new System.Drawing.Point(14, 47);
+            this.EnemyHP.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnemyHP.Location = new System.Drawing.Point(26, 47);
             this.EnemyHP.Name = "EnemyHP";
-            this.EnemyHP.Size = new System.Drawing.Size(68, 23);
+            this.EnemyHP.Size = new System.Drawing.Size(130, 23);
             this.EnemyHP.TabIndex = 7;
             this.EnemyHP.Text = "HP";
             this.EnemyHP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EnemyLevel
             // 
-            this.EnemyLevel.Location = new System.Drawing.Point(14, 12);
+            this.EnemyLevel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnemyLevel.Location = new System.Drawing.Point(26, 12);
             this.EnemyLevel.Name = "EnemyLevel";
-            this.EnemyLevel.Size = new System.Drawing.Size(45, 23);
+            this.EnemyLevel.Size = new System.Drawing.Size(52, 23);
             this.EnemyLevel.TabIndex = 8;
             this.EnemyLevel.Text = "Level";
             this.EnemyLevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EnemyName
             // 
-            this.EnemyName.Location = new System.Drawing.Point(65, 12);
+            this.EnemyName.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.EnemyName.Location = new System.Drawing.Point(84, 12);
             this.EnemyName.Name = "EnemyName";
-            this.EnemyName.Size = new System.Drawing.Size(91, 23);
+            this.EnemyName.Size = new System.Drawing.Size(72, 23);
             this.EnemyName.TabIndex = 9;
             this.EnemyName.Text = "Name";
             this.EnemyName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RabbitPicBox
             // 
+            this.RabbitPicBox.BackColor = System.Drawing.Color.White;
+            this.RabbitPicBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.RabbitPicBox.Image = ((System.Drawing.Image)(resources.GetObject("RabbitPicBox.Image")));
-            this.RabbitPicBox.Location = new System.Drawing.Point(453, 245);
+            this.RabbitPicBox.Location = new System.Drawing.Point(453, 268);
             this.RabbitPicBox.Name = "RabbitPicBox";
             this.RabbitPicBox.Size = new System.Drawing.Size(161, 147);
             this.RabbitPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.RabbitPicBox.TabIndex = 10;
             this.RabbitPicBox.TabStop = false;
             // 
-            // label3
+            // RabbitHpLab
             // 
-            this.label3.Location = new System.Drawing.Point(305, 245);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 23);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "HP";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(379, 245);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 23);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "MaxHP";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RabbitHpLab.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RabbitHpLab.Location = new System.Drawing.Point(317, 268);
+            this.RabbitHpLab.Name = "RabbitHpLab";
+            this.RabbitHpLab.Size = new System.Drawing.Size(130, 23);
+            this.RabbitHpLab.TabIndex = 12;
+            this.RabbitHpLab.Text = "HP";
+            this.RabbitHpLab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // richTextBox
             // 
+            this.richTextBox.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.richTextBox.Location = new System.Drawing.Point(339, 12);
             this.richTextBox.Name = "richTextBox";
+            this.richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.richTextBox.Size = new System.Drawing.Size(275, 147);
             this.richTextBox.TabIndex = 13;
             this.richTextBox.Text = "";
             // 
-            // vScrollBar1
+            // CarrotsLab
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(593, 12);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(21, 147);
-            this.vScrollBar1.TabIndex = 14;
+            this.CarrotsLab.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CarrotsLab.Location = new System.Drawing.Point(297, 341);
+            this.CarrotsLab.Name = "CarrotsLab";
+            this.CarrotsLab.Size = new System.Drawing.Size(65, 25);
+            this.CarrotsLab.TabIndex = 15;
+            this.CarrotsLab.Text = "Carrots";
+            this.CarrotsLab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(297, 310);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 25);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // Battle
             // 
@@ -171,15 +182,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(626, 450);
-            this.Controls.Add(this.vScrollBar1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.CarrotsLab);
             this.Controls.Add(this.richTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.RabbitHpLab);
             this.Controls.Add(this.RabbitPicBox);
             this.Controls.Add(this.EnemyName);
             this.Controls.Add(this.EnemyLevel);
             this.Controls.Add(this.EnemyHP);
-            this.Controls.Add(this.EnemyMaxHP);
             this.Controls.Add(this.btnSurrendar);
             this.Controls.Add(this.btnSpecialAttack);
             this.Controls.Add(this.enemyPicBox);
@@ -189,6 +199,7 @@
             this.Load += new System.EventHandler(this.Battle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.enemyPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RabbitPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -199,15 +210,14 @@
         private System.Windows.Forms.PictureBox enemyPicBox;
         private System.Windows.Forms.Button btnSpecialAttack;
         private System.Windows.Forms.Button btnSurrendar;
-        private System.Windows.Forms.Label EnemyMaxHP;
         private System.Windows.Forms.Label EnemyHP;
         private System.Windows.Forms.Label EnemyLevel;
         private System.Windows.Forms.Label EnemyName;
         private System.Windows.Forms.PictureBox RabbitPicBox;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label RabbitHpLab;
         private System.Windows.Forms.RichTextBox richTextBox;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.Label CarrotsLab;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
